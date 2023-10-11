@@ -17,6 +17,7 @@ void main(void)
     
     // didn't get why it works. Why it moves colors and what part a texture plays
     vec2 point = fract(uv * 0.1 + (u_time * 0.05));
+    // i understand that it moved the texture, but why it moves colors?
     vec4 displacementColor = texture2D(displacement1, point);
     //
     
